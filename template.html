@@ -363,18 +363,18 @@ task.
 <!-- Main Pybossa functions -->
 <script>
 	function loadUserProgress() {
-		pybossa.userProgress('ricepops2').done(function(data) {
+		pybossa.userProgress('ricepops3').done(function(data) {
 			console.log(data);
 			console.log("Total answers done for user: " + data.done);
-			if ((data.done == 1) && ($.cookie('surveyricepops2') === undefined)) {
+			if ((data.done == 1) && ($.cookie('surveyricepops3') === undefined)) {
 				$("#survey").modal('show');
-				$.cookie('surveyricepops2', 'shown', {
+				$.cookie('surveyricepops3', 'shown', {
 					path : '/'
 				});
 			}
-			if ((data.done == 25) && ($.cookie('survey25ricepops2') === undefined)) {
+			if ((data.done == 25) && ($.cookie('survey25ricepops3') === undefined)) {
 				$("#survey25").modal('show');
-				$.cookie('survey25ricepops2', 'shown', {
+				$.cookie('survey25ricepops3', 'shown', {
 					path : '/'
 				});
 			}
@@ -516,7 +516,7 @@ task.
 	});
 
 	if (Modernizr.borderradius) {
-		pybossa.run('ricepops2');
+		pybossa.run('ricepops3');
 	} else {
 		$(".skeleton").hide();
 		$("#oldbrowser").show();

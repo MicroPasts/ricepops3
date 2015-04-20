@@ -1,5 +1,5 @@
-Bronze Age Index app for PyBossa
-================================
+Rice Population app for PyBossa
+===============================
 
 This application has four files:
 
@@ -51,4 +51,4 @@ Please, see the COPYING file.
 
 Acknowledgments
 ===============
-The thumbnail is from the Portable Antiquities Scheme and shows the Near Lewes hoard.  Image licensed as CC BY-SA. 
+The thumbnail is from the Portable Antiquities Scheme and shows the Near Lewes hoard. Image licensed as CC BY-SA. 
